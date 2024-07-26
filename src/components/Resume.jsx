@@ -17,11 +17,11 @@ const Resume = () => {
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
         className="flex justify-center">
-            <iframe
+          <iframe
             src={resume}
-            style={{ width: '60%', height: '1125px' }}
+            className="w-full sm:w-11/12 md:w-10/12 lg:w-3/4 xl:w-2/3 h-screen"
             frameBorder="0"
-            ></iframe>
+          ></iframe>
       
       </motion.div>
     </div>

@@ -1,5 +1,5 @@
 import { BIO_CONTENT } from "../constants";
-import profilePic from "../assets/Alex_Farouz_pfp.jpg"
+import profilePic from "../assets/alex_f_pfp.jpg"
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
