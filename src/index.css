@@ -20,4 +20,5 @@ body::-webkit-scrollbar {
 
 body {
   overflow-y: scroll;
+  background-color: #000;
 }

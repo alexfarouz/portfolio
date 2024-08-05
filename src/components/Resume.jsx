@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import resume from '../assets/Alexander Farouz Resume.pdf';
+import resume from '../assets/Alexander_Farouz_Resume.pdf';
 
 const Resume = () => {
     return (
@@ -20,7 +20,7 @@ const Resume = () => {
           <iframe
             src={resume}
             className="w-full sm:w-11/12 md:w-10/12 lg:w-3/4 xl:w-2/3 h-screen"
-            frameBorder="0"
+            style={{ border: 0 }}
           ></iframe>
       
       </motion.div>
