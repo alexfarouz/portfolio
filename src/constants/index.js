@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.png";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.jpg"
 import kruskalExe from "../assets/projects/Kruskal's Simulator.exe";
 
 export const BIO_CONTENT = `Hi! My name is Alex and I am a third-year Computer Science student at George Mason University looking to break in to tech as a Software Engineer. 
@@ -66,18 +67,30 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Sorting Visualizer",
+    title: "Pantry Tracker",
     image: project1,
+    description: `Built a Next.js pantry tracker app to track a user's pantry inventory. Features the react-camera module to 
+      take a picture of a pantry item which is sent to the OpenAI GPT 4o mini model to analyze the image and add it to the users inventory. Based on a users inventory, the
+      same OpenAI model generates a recipe with detailed duration, ingredients and instructions. Frontend built with Next.js + React and backend built with Firebase,
+      Javascript. Utilized RESTful API's from OpenAI, Clerk for user login and Unsplash for image fetching. Holds 100+ users. `,
+    technologies: ["Next.js", "React", "Firebase", "Javascript", "OpenAI"],
+    websiteLink: "https://pantry-tracker-henna-sigma.vercel.app/"
+  },
+
+  {
+    title: "Sorting Visualizer",
+    image: project2,
     description:
       `A fully functional website used to visualize sorting algorithms such as merge sort, quick sort, heap sort and bubble sort. Allows for 
-      adjustable number of data and adjustable sorting speed. `,
+      adjustable number of data and adjustable sorting speed. Holds 200+ users composed of fellow George Mason University students from Data Structures and Algorithms course
+      I assisted in. `,
     technologies: ["React", "HTML", "CSS", "JavaScript"],
     websiteLink: "https://alexfarouz.github.io/sorting-visualizer/",
   },
   
   {
     title: "Kruskal's Algorithm Simulator",
-    image: project2,
+    image: project3,
     description:
       `A visual simulator for Kruskal's Minimum Spanning Tree Algorithm fully implemented in Java. Includes a Swing GUI with editable
       graph nodes and graph edges to customize simulation for added capability. Utilized several self-implemented data structures such as graph, 
@@ -87,7 +100,7 @@ export const PROJECTS = [
   },
   {
     title: "Minesweeper Game",
-    image: project3,
+    image: project4,
     description:
       "A comprehensive Minesweeper Game complete with varying sizes and difficulties. Fully implemented in Java with a GUI using Java AWT and JUnit testing. ",
     technologies: ["Java", "Java AWT", "JUnit"],
@@ -95,7 +108,7 @@ export const PROJECTS = [
   },
   {
     title: "Heart Disease Detector",
-    image: project4,
+    image: project5,
     description: `Created an interactive web-app to detect heart disease based on 13 different parameters such as age, gender, cholesterol levels and more.
       Implemented K Nearest Neighboors (KNN) machine learning algorithm by referencing 5000+ cases of heart disease by a csv file from kaggle.`,
     technologies: ["Python", "HTML", "CSS", "JavaScript", "Flask"],

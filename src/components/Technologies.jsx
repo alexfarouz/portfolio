@@ -3,6 +3,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { AiFillOpenAI } from "react-icons/ai";
 import { FaJava, FaPython, FaHtml5, FaCss3Alt, FaJsSquare} from 'react-icons/fa';
 import { SiSpring } from 'react-icons/si';
+import { IoLogoFirebase } from "react-icons/io5";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -59,7 +60,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiSpring className="text-7xl text-green-500" />
+                    <IoLogoFirebase className="text-7xl text-orange-400" />
                 </motion.div>
                 <motion.div 
                     variants={iconVariants(2)}
