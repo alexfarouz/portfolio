@@ -14,7 +14,7 @@ const Navbar = () => {
                 <motion.a 
                     whileHover={{ scale: 1.2, color: "#0077b5" }}
                     style={{ display: "inline-block" }}
-                    href="https://www.linkedin.com/in/alexander-farouz-753b10251/"
+                    href="https://www.linkedin.com/in/alexander-farouz-1433g/"
                     target="_blank" rel="noopener noreferrer">
                     <FaLinkedin />
                 </motion.a>
