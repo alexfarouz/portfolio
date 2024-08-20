@@ -4,6 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.jpg"
 import project6 from "../assets/projects/project-6.jpg"
+import project7 from "../assets/projects/project-7.png"
 import kruskalExe from "../assets/projects/Kruskal's Simulator.exe";
 
 export const BIO_CONTENT = `Hi! My name is Alex and I am a third-year Computer Science student at George Mason University looking to break in to tech as a Software Engineer. 
@@ -67,6 +68,15 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Notefy",
+    image: project7,
+    description: `Created an AI powered flashcard generator which allows users to input text, pdfs and YouTube videos as context for the OpenAI API. Built the frontend using
+      React, Next.js and TailwindCSS; the backend was built using Python and Flask with Firebase for storage, Clerk for user authentication and Stripe for payments. Currently holds 
+      60+ users including 10+ premium members and an average rating of 4.5 stars across given reviews. `,
+    technologies: ["Python", "OpenAI", "Firebase", "React", "Next.js"],
+    websiteLink: "https://notefy.up.railway.app/"
+  },
   {
     title: "AI Assistant",
     image: project1,
