@@ -3,8 +3,8 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.jpg"
-import project6 from "../assets/projects/project-6.jpg"
-import project7 from "../assets/projects/project-7.png"
+import project6 from "../assets/projects/project-7.png"
+import project7 from "../assets/projects/project-8.png"
 import kruskalExe from "../assets/projects/Kruskal's Simulator.exe";
 
 export const BIO_CONTENT = `Hi! My name is Alex and I am a third-year Computer Science student at George Mason University looking to break in to tech as a Software Engineer. 
@@ -22,10 +22,22 @@ export const ABOUT_TEXT = `More than having a passion for coding, I am a dedicat
 
 export const EXPERIENCES = [
   {
+    year: "August 2024 - Present",
+    role: "Software Engineer Intern",
+    company: "Horizon Labs",
+    location: "Remote",
+    description: `Designed and implemented backend API integrations using FastAPI, streamlining communication between frontend and Azure 
+      services. Helped construct the TypeScript frontend from scratch to ensure seamless integration with backend services. Developed server-side 
+      logic and managed databases with Azure SQL and Blob Storage, optimizing storage and retrieval for improved performance. Collaborated with 
+      cross-functional Scrum teams to integrate LLM processing using Langchain, leveraging FastAPI libraries to enhance natural language 
+      understanding capabilities. Experiences span full-stack development and scalable system design.`,
+    technologies: ["Azure Services", "FastAPI", "Langchain", "TypeScript"],
+  },
+  {
     year: "July 2024 - Present",
     role: "Software Engineering Fellow",
     company: "Headstarter AI",
-    location: "Washington, DC - Remote",
+    location: "Remote",
     description: `Building 5+ AI apps and API’s using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by 1000 users. 
       Developing projects from design to deployment leading 3 engineering fellows using MVC design pattern. 
       Coached by Amazon, Bloomberg and Capital One engineers on Agile, CI/CD, Git and microservice patterns`,
@@ -69,8 +81,18 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Notefy",
+    title: "Pam Playground",
     image: project7,
+    description: `Created an AI customer support agent for car dealerships to take customer calls, schedule appointments, inquire inventory and more.
+      Utilized WebSockets and streaming techniques to achieve sub 1000ms latency complete with live transcriptions updating as the customer is talking.
+      Built the frontend with TypeScript, Next.js and shadcn with a JavaScript and Node.js backend with Deepgrams' Nova-2 STT and Aura TTS models using Llama3 via groq.
+      Headstarter Hiring Hackathon Finalist. `,
+    technologies: ["Groq", "Llama3", "Deepgram", "TypeScript", "Next.js"],
+    websiteLink: "https://pam-voicechat.vercel.app/"
+  },
+  {
+    title: "Notefy",
+    image: project6,
     description: `Created an AI powered flashcard generator which allows users to input text, pdfs and YouTube videos as context for the OpenAI API. Built the frontend using
       React, Next.js and TailwindCSS; the backend was built using Python and Flask with Firebase for storage, Clerk for user authentication and Stripe for payments. Currently holds 
       60+ users including 10+ premium members and an average rating of 4.5 stars across given reviews. `,
@@ -127,18 +149,11 @@ export const PROJECTS = [
       "A comprehensive Minesweeper Game complete with varying sizes and difficulties. Fully implemented in Java with a GUI using Java AWT and JUnit testing. ",
     technologies: ["Java", "Java AWT", "JUnit"],
     websiteLink: "https://github.com/alexfarouz/minesweeper",
-  },
-  {
-    title: "Heart Disease Detector",
-    image: project6,
-    description: `Created an interactive web-app to detect heart disease based on 13 different parameters such as age, gender, cholesterol levels and more.
-      Implemented K Nearest Neighboors (KNN) machine learning algorithm by referencing 5000+ cases of heart disease by a csv file from kaggle.`,
-    technologies: ["Python", "HTML", "CSS", "JavaScript", "Flask"],
-  },
+  }
 ];
 
-export const COURSES = ` Data Structures and Algorithms (Java), Object Oriented Programming (Java), 
-  Low-level Programming (C), Quantum Algorithms, Formal Methods and Models, Linear Algebra, Numerical Analysis.`
+export const COURSES = ` Data Structures and Algorithms, Object Oriented Programming, Low-level Programming, Software Engineering, 
+  Analysis of Algorithms, Computer Systems and Programming, Quantum Algorithms, Introduction to AI`
 
 export const CONTACT = {
   address: "Sterling, Virginia",

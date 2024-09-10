@@ -1,9 +1,10 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { AiFillOpenAI } from "react-icons/ai";
-import { FaJava, FaPython, FaHtml5, FaCss3Alt, FaJsSquare} from 'react-icons/fa';
-import { SiSpring } from 'react-icons/si';
-import { IoLogoFirebase } from "react-icons/io5";
+//import { AiFillOpenAI } from "react-icons/ai";
+import { FaJava, FaPython, FaJsSquare} from 'react-icons/fa';
+//import { IoLogoFirebase } from "react-icons/io5";
+import { BiLogoTypescript } from "react-icons/bi";
+import { SiMicrosoftazure, SiFlask, SiNodedotjs/*, SiC, SiCplusplus*/  } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -35,6 +36,35 @@ const Technologies = () => {
                 transition={{ duration: 1.5 }} 
                 className="flex flex-wrap items-center justify-center gap-4">
                 <motion.div 
+                    variants={iconVariants(6)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <FaPython className="text-7xl text-yellow-300" />
+                </motion.div>
+                <motion.div 
+                    variants={iconVariants(2)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <FaJava className="text-7xl text-sky-600" />
+                </motion.div>
+                <motion.div 
+                    variants={iconVariants(4)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <BiLogoTypescript className="text-7xl text-blue-500 scale-125" />
+                </motion.div>
+                <motion.div 
+                    variants={iconVariants(2.5)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <FaJsSquare className="text-7xl text-yellow-400" />
+                </motion.div>
+
+                <motion.div 
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
@@ -53,53 +83,27 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <AiFillOpenAI className="text-7xl text-white" />
+                    <SiFlask className="text-7xl text-white" />
+                </motion.div>
+                
+                
+                
+                <motion.div 
+                    variants={iconVariants(8)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiMicrosoftazure className="text-7xl text-blue-400" />
                 </motion.div>
                 <motion.div 
                     variants={iconVariants(7)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <IoLogoFirebase className="text-7xl text-orange-400" />
+                    <SiNodedotjs className="text-7xl text-green-600" />
                 </motion.div>
-                <motion.div 
-                    variants={iconVariants(2)}
-                    initial="initial"
-                    animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaJava className="text-7xl text-sky-600" />
-                </motion.div>
-                <motion.div 
-                    variants={iconVariants(6)}
-                    initial="initial"
-                    animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaPython className="text-7xl text-yellow-300" />
-                </motion.div>
-                <motion.div 
-                    variants={iconVariants(2.5)}
-                    initial="initial"
-                    animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaJsSquare className="text-7xl text-yellow-400" />
-                </motion.div>
-                <motion.div 
-                    variants={iconVariants(8)}
-                    initial="initial"
-                    animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaHtml5 className="text-7xl text-orange-500" />
-                </motion.div>
-                <motion.div 
-                    variants={iconVariants(4)}
-                    initial="initial"
-                    animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaCss3Alt className="text-7xl text-blue-400" />
-                </motion.div>
-                
-                
             </motion.div>
+            
         </div>
     );
 };
