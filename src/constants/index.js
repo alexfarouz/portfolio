@@ -2,9 +2,10 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
-import project5 from "../assets/projects/project-5.jpg"
-import project6 from "../assets/projects/project-7.png"
-import project7 from "../assets/projects/project-8.png"
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
+import project8 from "../assets/projects/project-8.png";
 import kruskalExe from "../assets/projects/Kruskal's Simulator.exe";
 
 export const BIO_CONTENT = `Hi! My name is Alex and I am a third-year Computer Science student at George Mason University looking to break in to tech as a Software Engineer. 
@@ -82,13 +83,23 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Pam Playground",
-    image: project7,
+    image: project8,
     description: `Created an AI customer support agent for car dealerships to take customer calls, schedule appointments, inquire inventory and more.
       Utilized WebSockets and streaming techniques to achieve sub 1000ms latency complete with live transcriptions updating as the customer is talking.
       Built the frontend with TypeScript, Next.js and shadcn with a JavaScript and Node.js backend with Deepgrams' Nova-2 STT and Aura TTS models using Llama3 via groq.
       Headstarter Hiring Hackathon Finalist. `,
     technologies: ["Groq", "Llama3", "Deepgram", "TypeScript", "Next.js"],
     websiteLink: "https://pam-voicechat.vercel.app/"
+  },
+  {
+    title: "RecMyProfessors",
+    image: project7,
+    description: `Developed a RateMyProfessors web-scraper chatbot to recommend professors to users based on certain attributes, classes, ratings, etc. with 100% professor
+      data accuracy. Built a web scraping serve using Python, Selenium and BeautifulSoup to gather data on professors from 100+ universities.
+      Frontend build with Next.js, React, TailwindCSS and shadcn while backend implemented in JavaScript and the OpenAI API as the LLM with Firebase 
+      for user storage and Clerk for user authentication. `,
+    technologies: ["Python", "Selenium", "BeatifulSoup", "Next.js", "React"],
+    websiteLink: "https://rec-my-professors.vercel.app/"
   },
   {
     title: "Notefy",
