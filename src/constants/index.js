@@ -46,7 +46,7 @@ export const EXPERIENCES = [
   },
   {
     year: "May 2024 - Present",
-    role: "Website Administrator",
+    role: "Software Engineer Intern",
     company: "CloudStation",
     location: "Los Angeles, CA - Remote",
     description: `Engineered fully functional website for CloudStation using React.js, HTML, CSS, and JavaScript.
