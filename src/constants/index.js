@@ -42,7 +42,7 @@ export const EXPERIENCES = [
     description: `Building 5+ AI apps and API’s using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by 1000 users. 
       Developing projects from design to deployment leading 3 engineering fellows using MVC design pattern. 
       Coached by Amazon, Bloomberg and Capital One engineers on Agile, CI/CD, Git and microservice patterns`,
-    technologies: ["Javascript", "React.js", "Next.js", "OpenAI"],
+    technologies: ["Langchain", "Pinecone", "Next.js", "OpenAI"],
   },
   {
     year: "May 2024 - Present",
@@ -53,7 +53,7 @@ export const EXPERIENCES = [
       Achieved a 70% increase in interest across ventures such as clients, business owners, and investors, as seen by over 5000 viewers.
       Increased revenue by 45%, generating over $10,000, and facilitated positive reviews and interest from multi-millionaire investors. See at `,
     link: "https://cloudstationusa.com",
-    technologies: ["React.js", "JavaScript", "HTML", "CSS"],
+    technologies: ["React", "JavaScript", "Vercel", "Node.js"],
   },
   {
     year: "December 2023 - Present",
