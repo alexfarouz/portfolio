@@ -27,11 +27,11 @@ export const EXPERIENCES = [
     role: "Software Engineer Intern",
     company: "Horizon Labs",
     location: "Remote",
-    description: `Designed and implemented backend API integrations using FastAPI, streamlining communication between frontend and Azure 
-      services. Helped construct the TypeScript frontend from scratch to ensure seamless integration with backend services. Developed server-side 
-      logic and managed databases with Azure SQL and Blob Storage, optimizing storage and retrieval for improved performance. Collaborated with 
-      cross-functional Scrum teams to integrate LLM processing using Langchain, leveraging FastAPI libraries to enhance natural language 
-      understanding capabilities. Experiences span full-stack development and scalable system design.`,
+    description: `Worked in SCRUM team producing 10+ APIs and creating landing, information and dashboard pages from scratch increasing user base by 100%
+      Designed and implemented backend API integrations using FastAPI, streamlining communication between frontend and Azure 
+      services. Developed server-side logic and managed databases with Azure SQL and Blob Storage, optimizing storage and retrieval 
+      for improved performance. Collaborated with cross-functional Scrum teams to integrate LLM processing using Langchain, leveraging FastAPI 
+      libraries to enhance natural language understanding capabilities. Experiences span full-stack development and scalable system design.`,
     technologies: ["Azure Services", "FastAPI", "Langchain", "TypeScript"],
   },
   {
@@ -49,10 +49,10 @@ export const EXPERIENCES = [
     role: "Software Engineer Intern",
     company: "CloudStation",
     location: "Los Angeles, CA - Remote",
-    description: `Engineered fully functional website for CloudStation using React.js, HTML, CSS, and JavaScript.
-      Features comprehensive forms to allow for business inquiries and other interests between client and vendors.
-      Over 1000 visits by venue owners/managers, business owners and potential clients. See at `,
-    link: 'https://cloudstationusa.com',
+    description: `Developed the frontend and backend from scratch using React and JavaScript, resulting in a 100% increase in engagement.
+      Achieved a 70% increase in interest across ventures such as clients, business owners, and investors, as seen by over 5000 viewers.
+      Increased revenue by 45%, generating over $10,000, and facilitated positive reviews and interest from multi-millionaire investors. See at `,
+    link: "https://cloudstationusa.com",
     technologies: ["React.js", "JavaScript", "HTML", "CSS"],
   },
   {
@@ -63,7 +63,7 @@ export const EXPERIENCES = [
     description: `Constructed website (hosted via shopify) for donations for the community in Salgaa, Kenya through Non-Profit Rise-Up Kenya. 
       Raised $7000+ (Increasing monthly) for those in need. Working on migrating to a full stack website with the StripeAPI to minimize cost
       and improve website quality. See at `,
-    link: 'https://riseupkenya.org/',
+    link: "https://riseupkenya.org/",
     technologies: ["React", "Next.js", "SpringBoot", "Stripe"],
   },
   {
@@ -89,7 +89,7 @@ export const PROJECTS = [
       Built the frontend with TypeScript, Next.js and shadcn with a JavaScript and Node.js backend with Deepgrams' Nova-2 STT and Aura TTS models using Llama3 via groq.
       Headstarter Hiring Hackathon Finalist. `,
     technologies: ["Groq", "Llama3", "Deepgram", "TypeScript", "Next.js"],
-    websiteLink: "https://pam-voicechat.vercel.app/"
+    websiteLink: "https://pam-voicechat.vercel.app/",
   },
   {
     title: "RecMyProfessors",
@@ -99,7 +99,7 @@ export const PROJECTS = [
       Frontend build with Next.js, React, TailwindCSS and shadcn while backend implemented in JavaScript and the OpenAI API as the LLM with Firebase 
       for user storage and Clerk for user authentication. `,
     technologies: ["Python", "Selenium", "BeatifulSoup", "Next.js", "React"],
-    websiteLink: "https://rec-my-professors.vercel.app/"
+    websiteLink: "https://rec-my-professors.vercel.app/",
   },
   {
     title: "Notefy",
@@ -108,7 +108,7 @@ export const PROJECTS = [
       React, Next.js and TailwindCSS; the backend was built using Python and Flask with Firebase for storage, Clerk for user authentication and Stripe for payments. Currently holds 
       60+ users including 10+ premium members and an average rating of 4.5 stars across given reviews. `,
     technologies: ["Python", "OpenAI", "Firebase", "React", "Next.js"],
-    websiteLink: "https://notefy.up.railway.app/"
+    websiteLink: "https://notefy.up.railway.app/",
   },
   {
     title: "AI Assistant",
@@ -118,7 +118,7 @@ export const PROJECTS = [
       from the Clerk API with a Firebase integration to store data. Utilized Langchain and Pinecone's vector database to allow for OpenAI GPT-4o-mini to provide more accurate
       answers based on the given context. `,
     technologies: ["Langchain", "Pinecone", "Firebase", "OpenAI", "Next.js"],
-    websiteLink: "https://ai-customer-support-three-phi.vercel.app/"
+    websiteLink: "https://ai-customer-support-three-phi.vercel.app/",
   },
 
   {
@@ -129,25 +129,23 @@ export const PROJECTS = [
       same OpenAI model generates a recipe with detailed duration, ingredients and instructions. Frontend built with Next.js + React and backend built with Firebase,
       Javascript. Utilized RESTful API's from OpenAI, Clerk for user login and Unsplash for image fetching. Holds 100+ users. `,
     technologies: ["Next.js", "React", "Firebase", "Javascript", "OpenAI"],
-    websiteLink: "https://pantry-tracker-henna-sigma.vercel.app/"
+    websiteLink: "https://pantry-tracker-henna-sigma.vercel.app/",
   },
 
   {
     title: "Sorting Visualizer",
     image: project3,
-    description:
-      `A fully functional website used to visualize sorting algorithms such as merge sort, quick sort, heap sort and bubble sort. Allows for 
+    description: `A fully functional website used to visualize sorting algorithms such as merge sort, quick sort, heap sort and bubble sort. Allows for 
       adjustable number of data and adjustable sorting speed. Holds 200+ users composed of fellow George Mason University students from Data Structures and Algorithms course
       I assisted in. `,
     technologies: ["React", "HTML", "CSS", "JavaScript"],
     websiteLink: "https://alexfarouz.github.io/sorting-visualizer/",
   },
-  
+
   {
     title: "Kruskal's Algorithm Simulator",
     image: project4,
-    description:
-      `A visual simulator for Kruskal's Minimum Spanning Tree Algorithm fully implemented in Java. Includes a Swing GUI with editable
+    description: `A visual simulator for Kruskal's Minimum Spanning Tree Algorithm fully implemented in Java. Includes a Swing GUI with editable
       graph nodes and graph edges to customize simulation for added capability. Utilized several self-implemented data structures such as graph, 
       binary search tree, set, map. `,
     technologies: ["Java", "Java Swing", "JUnit"],
@@ -160,11 +158,11 @@ export const PROJECTS = [
       "A comprehensive Minesweeper Game complete with varying sizes and difficulties. Fully implemented in Java with a GUI using Java AWT and JUnit testing. ",
     technologies: ["Java", "Java AWT", "JUnit"],
     websiteLink: "https://github.com/alexfarouz/minesweeper",
-  }
+  },
 ];
 
 export const COURSES = ` Data Structures and Algorithms, Object Oriented Programming, Low-level Programming, Software Engineering, 
-  Analysis of Algorithms, Computer Systems and Programming, Quantum Algorithms, Introduction to AI`
+  Analysis of Algorithms, Computer Systems and Programming, Quantum Algorithms, Introduction to AI`;
 
 export const CONTACT = {
   address: "Sterling, Virginia",
