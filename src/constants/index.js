@@ -24,7 +24,7 @@ export const ABOUT_TEXT = `More than having a passion for coding, I am a dedicat
 export const EXPERIENCES = [
   {
     year: "August 2024 - Present",
-    role: "Software Engineer Intern",
+    role: "Software Engineering Intern",
     company: "Horizon Labs",
     location: "Remote",
     description: `Worked in SCRUM team producing 10+ APIs and creating landing, information and dashboard pages from scratch increasing user base by 100%
@@ -46,7 +46,7 @@ export const EXPERIENCES = [
   },
   {
     year: "May 2024 - Present",
-    role: "Software Engineer Intern",
+    role: "Software Engineering Intern",
     company: "CloudStation",
     location: "Los Angeles, CA - Remote",
     description: `Developed the frontend and backend from scratch using React and JavaScript, resulting in a 100% increase in engagement.
