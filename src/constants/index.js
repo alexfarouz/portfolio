@@ -45,7 +45,7 @@ export const EXPERIENCES = [
     technologies: ["Langchain", "Pinecone", "Next.js", "OpenAI"],
   },
   {
-    year: "May 2024 - Present",
+    year: "May 2024 - November 2024",
     role: "Software Engineering Intern",
     company: "CloudStation",
     location: "Los Angeles, CA - Remote",
