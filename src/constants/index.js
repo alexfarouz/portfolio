@@ -23,7 +23,15 @@ export const ABOUT_TEXT = `More than having a passion for coding, I am a dedicat
 
 export const EXPERIENCES = [
   {
-    year: "August 2024 - Present",
+    year: "Summer 2025",
+    role: "Software Engineer",
+    company: "Peraton",
+    location: "Herndon, VA",
+    description: ``,
+    technologies: [],
+  },
+  {
+    year: "August 2024 - January 2025",
     role: "Software Engineering Intern",
     company: "Horizon Labs",
     location: "Remote",
@@ -35,7 +43,7 @@ export const EXPERIENCES = [
     technologies: ["Azure Services", "FastAPI", "Langchain", "TypeScript"],
   },
   {
-    year: "July 2024 - Present",
+    year: "July 2024 - September 2024",
     role: "Software Engineering Fellow",
     company: "Headstarter AI",
     location: "Remote",
@@ -48,24 +56,24 @@ export const EXPERIENCES = [
     year: "May 2024 - November 2024",
     role: "Software Engineering Intern",
     company: "CloudStation",
-    location: "Los Angeles, CA - Remote",
+    location: "Los Angeles, CA",
     description: `Developed the frontend and backend from scratch using React and JavaScript, resulting in a 100% increase in engagement.
       Achieved a 70% increase in interest across ventures such as clients, business owners, and investors, as seen by over 5000 viewers.
       Increased revenue by 45%, generating over $10,000, and facilitated positive reviews and interest from multi-millionaire investors. See at `,
     link: "https://cloudstationusa.com",
     technologies: ["React", "JavaScript", "Vercel", "Node.js"],
   },
-  {
-    year: "December 2023 - Present",
-    role: "Website Administrator",
-    company: "Rise-Up Kenya",
-    location: "Salgaa, Kenya - Remote",
-    description: `Constructed website (hosted via shopify) for donations for the community in Salgaa, Kenya through Non-Profit Rise-Up Kenya. 
-      Raised $7000+ (Increasing monthly) for those in need. Working on migrating to a full stack website with the StripeAPI to minimize cost
-      and improve website quality. See at `,
-    link: "https://riseupkenya.org/",
-    technologies: ["React", "Next.js", "SpringBoot", "Stripe"],
-  },
+  // {
+  //   year: "December 2023 - Present",
+  //   role: "Website Administrator",
+  //   company: "Rise-Up Kenya",
+  //   location: "Salgaa, Kenya - Remote",
+  //   description: `Constructed website (hosted via shopify) for donations for the community in Salgaa, Kenya through Non-Profit Rise-Up Kenya.
+  //     Raised $7000+ (Increasing monthly) for those in need. Working on migrating to a full stack website with the StripeAPI to minimize cost
+  //     and improve website quality. See at `,
+  //   link: "https://riseupkenya.org/",
+  //   technologies: ["React", "Next.js", "SpringBoot", "Stripe"],
+  // },
   {
     year: "January 2023 - Present",
     role: "Computer Science Teaching Assistant",
@@ -81,6 +89,15 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  // {
+  //   title: "Viewee",
+  //   image: project8,
+  //   description: `Created a conversational voice AI interviewer for technical SWE interviews with 75+ coding problems and real time feedback.
+  //   Utilized WebSockets and chunking to achieve <1000 ms response time with a RAG pipeline on user solutions for accurate interviewer responses.
+  //   Implemented a TypeScript and Next.js frontend with a Python backend supporting STT and TTS APIs from Deepgram with GPT-4o for feedback. `,
+  //   technologies: ["OpenAI", "Deepgram", "TypeScript", "Next.js", "Python"],
+  //   websiteLink: "https://github.com/viewee-ai",
+  // },
   {
     title: "Pam Playground",
     image: project8,
