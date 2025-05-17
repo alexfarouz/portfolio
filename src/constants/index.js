@@ -23,7 +23,7 @@ export const ABOUT_TEXT = `More than having a passion for coding, I am a dedicat
 
 export const EXPERIENCES = [
   {
-    year: "Summer 2025",
+    year: "June 2025",
     role: "Software Engineer",
     company: "Peraton",
     location: "Herndon, VA",
@@ -178,7 +178,7 @@ export const PROJECTS = [
   },
 ];
 
-export const COURSES = ` Data Structures and Algorithms, Object Oriented Programming, Low-level Programming, Software Engineering, 
+export const COURSES = ` Data Structures and Algorithms, Object Oriented Programming, Operating Systems, Low-level Programming, Software Engineering, 
   Analysis of Algorithms, Computer Systems and Programming, Quantum Algorithms, Introduction to AI`;
 
 export const CONTACT = {

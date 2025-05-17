@@ -41,7 +41,7 @@ const Education = () => {
             </div>
             <div className="flex justify-between max-w-3xl py-4">
               <p>Bachelor of Science - Computer Science</p>
-              <p className="text-purple-100">GPA: 3.94/4.00</p>
+              <p className="text-purple-100">GPA: 3.95/4.00</p>
             </div>
             <div className="flex max-w-3xl py-4 text-neutral-400">
               <p>
