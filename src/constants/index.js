@@ -6,12 +6,14 @@ import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.png";
+import project9 from "../assets/projects/image.png";
 import kruskalExe from "../assets/projects/Kruskal's Simulator.exe";
 
-export const BIO_CONTENT = `Hi! My name is Alex and I am a third-year Computer Science student at George Mason University looking to break in to tech as a Software Engineer. 
-  With 3 years of hands-on experience, I have honed my skills in languages such as Java, Python, C, HTML, JS and CSS, front-end technologies like 
-  React and Next.js, as well as back-end technologies like Node.js, AWS, Firebase, SpringBoot and more. My goal is to leverage my expertise 
-  to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const BIO_CONTENT = `Hi! My name is Alex and I am a Software Engineer at Peraton. I recently graduated Summa 
+  from George Mason University with a Bachelor of Science in Computer and I now attend Georgia Tech for my Masters in Computer Science.
+  With 3 years of hands-on experience, I have honed my skills in languages such as Java, Python, C/C++, JavaScript and TypeScript,
+  front-end technologies such as React and Next.js, as well as back-end technologies like Node.js, AWS, Firebase, SpringBoot and more.
+  My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `More than having a passion for coding, I am a dedicated and lifelong learner, constantly looking grow. 
   The moments in life where I have grown the most stem from failure. Without failiure there is no chance to learn, which is why I always try
@@ -89,15 +91,15 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  // {
-  //   title: "Viewee",
-  //   image: project8,
-  //   description: `Created a conversational voice AI interviewer for technical SWE interviews with 75+ coding problems and real time feedback.
-  //   Utilized WebSockets and chunking to achieve <1000 ms response time with a RAG pipeline on user solutions for accurate interviewer responses.
-  //   Implemented a TypeScript and Next.js frontend with a Python backend supporting STT and TTS APIs from Deepgram with GPT-4o for feedback. `,
-  //   technologies: ["OpenAI", "Deepgram", "TypeScript", "Next.js", "Python"],
-  //   websiteLink: "https://github.com/viewee-ai",
-  // },
+  {
+    title: "Viewee",
+    image: project9,
+    description: `Created a conversational voice AI interviewer for technical SWE interviews with 75+ coding problems and real time feedback.
+    Utilized WebSockets and chunking to achieve <1000 ms response time with a RAG pipeline on user solutions for accurate interviewer responses.
+    Implemented a TypeScript and Next.js frontend with a Python backend supporting STT and TTS APIs from Deepgram with GPT-4o for feedback. `,
+    technologies: ["OpenAI", "Deepgram", "TypeScript", "Next.js", "Python"],
+    websiteLink: "https://github.com/viewee-ai",
+  },
   {
     title: "Pam Playground",
     image: project8,
