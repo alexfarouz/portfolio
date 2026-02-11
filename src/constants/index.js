@@ -29,7 +29,15 @@ export const EXPERIENCES = [
     role: "Software Engineer",
     company: "Peraton",
     location: "Herndon, VA",
-    description: ``,
+    description: [
+      `Engineered and maintained secure Django-based backend services deployed across Oracle Linux 
+    environments, implementing RESTful APIs, reverse proxy architecture (Nginx), and Gunicorn service orchestration 
+    for mission-critical applications.`,
+      `Automated multi-VM configuration and deployment workflows using Bash, Docker, and systemd, standardizing 
+    environments across distributed infrastructure and improving deployment reliability and consistency.`,
+      `Led production troubleshooting and performance optimization efforts, resolving networking, TLS, firewall, and 
+    authentication issues to ensure high availability and secure system operation`,
+    ],
     technologies: [],
   },
   {
@@ -37,11 +45,14 @@ export const EXPERIENCES = [
     role: "Software Engineering Intern",
     company: "Horizon Labs",
     location: "Remote",
-    description: `Worked in SCRUM team producing 10+ APIs and creating landing, information and dashboard pages from scratch increasing user base by 100%
+    description: [
+      `Worked in SCRUM team producing 10+ APIs and creating landing, information and dashboard pages from scratch increasing user base by 100%
       Designed and implemented backend API integrations using FastAPI, streamlining communication between frontend and Azure 
-      services. Developed server-side logic and managed databases with Azure SQL and Blob Storage, optimizing storage and retrieval 
+      services.`,
+      `Developed server-side logic and managed databases with Azure SQL and Blob Storage, optimizing storage and retrieval 
       for improved performance. Collaborated with cross-functional Scrum teams to integrate LLM processing using Langchain, leveraging FastAPI 
-      libraries to enhance natural language understanding capabilities. Experiences span full-stack development and scalable system design.`,
+      libraries to enhance natural language understanding capabilities.`,
+    ],
     technologies: ["Azure Services", "FastAPI", "Langchain", "TypeScript"],
   },
   {
@@ -49,9 +60,11 @@ export const EXPERIENCES = [
     role: "Software Engineering Fellow",
     company: "Headstarter AI",
     location: "Remote",
-    description: `Building 5+ AI apps and API’s using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by 1000 users. 
-      Developing projects from design to deployment leading 3 engineering fellows using MVC design pattern. 
-      Coached by Amazon, Bloomberg and Capital One engineers on Agile, CI/CD, Git and microservice patterns`,
+    description: [
+      `Building 5+ AI apps and API’s using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by 1000 users.`,
+      `Developing projects from design to deployment leading 3 engineering fellows using MVC design pattern.`,
+      `Coached by Amazon, Bloomberg and Capital One engineers on Agile, CI/CD, Git and microservice patterns`,
+    ],
     technologies: ["Langchain", "Pinecone", "Next.js", "OpenAI"],
   },
   {
@@ -59,33 +72,25 @@ export const EXPERIENCES = [
     role: "Software Engineering Intern",
     company: "CloudStation",
     location: "Los Angeles, CA",
-    description: `Developed the frontend and backend from scratch using React and JavaScript, resulting in a 100% increase in engagement.
-      Achieved a 70% increase in interest across ventures such as clients, business owners, and investors, as seen by over 5000 viewers.
-      Increased revenue by 45%, generating over $10,000, and facilitated positive reviews and interest from multi-millionaire investors. See at `,
-    link: "https://cloudstationusa.com",
+    description: [
+      `Developed the frontend and backend from scratch using React and JavaScript, resulting in a 100% increase in engagement.`,
+      `Achieved a 70% increase in interest across ventures such as clients, business owners, and investors, as seen by over 5000 viewers.`,
+      `Increased revenue by 45%, generating over $10,000, and facilitated positive reviews and interest from multi-millionaire investors.`,
+    ],
     technologies: ["React", "JavaScript", "Vercel", "Node.js"],
   },
-  // {
-  //   year: "December 2023 - Present",
-  //   role: "Website Administrator",
-  //   company: "Rise-Up Kenya",
-  //   location: "Salgaa, Kenya - Remote",
-  //   description: `Constructed website (hosted via shopify) for donations for the community in Salgaa, Kenya through Non-Profit Rise-Up Kenya.
-  //     Raised $7000+ (Increasing monthly) for those in need. Working on migrating to a full stack website with the StripeAPI to minimize cost
-  //     and improve website quality. See at `,
-  //   link: "https://riseupkenya.org/",
-  //   technologies: ["React", "Next.js", "SpringBoot", "Stripe"],
-  // },
   {
     year: "January 2023 - Present",
     role: "Computer Science Teaching Assistant",
     company: "George Mason University",
     location: "Fairfax, VA",
-    description: `Assisted with various George Mason CS courses such as Data Structures and Algorithms (CS310, current) 
-      Object-Oriented Programming (CS 211) and Introduction to Programming (CS 112). 
-      Answered student questions on projects and miscellaneous questions on online forum (Piazza). 
-      Instructed students regarding lab assignments during lab periods as well as proctoring tests.
-      Aided over 3000 George Mason computer science students in total time as teaching assistant.`,
+    description: [
+      `Assisted with various George Mason CS courses such as Data Structures and Algorithms (CS310, current) 
+      Object-Oriented Programming (CS 211) and Introduction to Programming (CS 112).`,
+      `Answered student questions on projects and miscellaneous questions on online forum (Piazza).`,
+      `Instructed students regarding lab assignments during lab periods as well as proctoring tests.`,
+      `Aided over 3000 George Mason computer science students in total time as teaching assistant.`,
+    ],
     technologies: ["Java", "Python"],
   },
 ];

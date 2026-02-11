@@ -42,7 +42,12 @@ const Experience = () => {
                 </span>
               </h6>
               <p className="mb-4 text-neutral-400">
-                {experience.description}
+                <ul className="list-disc space-y-2 pl-5">
+                  {experience.description.map((point, i) => (
+                    <li key={i}>{point}</li>
+                  ))}
+                </ul>
+
                 {experience.link && (
                   <>
                     <a
