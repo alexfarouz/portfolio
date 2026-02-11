@@ -9,8 +9,8 @@ import project8 from "../assets/projects/project-8.png";
 import project9 from "../assets/projects/image.png";
 import kruskalExe from "../assets/projects/Kruskal's Simulator.exe";
 
-export const BIO_CONTENT = `Hi! My name is Alex and I am a Software Engineer at Peraton. I recently graduated Summa 
-  from George Mason University with a Bachelor of Science in Computer and I now attend Georgia Tech for my Masters in Computer Science.
+export const BIO_CONTENT = `Hi! My name is Alex and I am a Software Engineer at Peraton. I recently graduated Summa Cum Laude
+  from George Mason University with a Bachelor of Science in Computer and I now attend Georgia Tech pursuing a Masters in Computer Science.
   With 3 years of hands-on experience, I have honed my skills in languages such as Java, Python, C/C++, JavaScript and TypeScript,
   front-end technologies such as React and Next.js, as well as back-end technologies like Node.js, AWS, Firebase, SpringBoot and more.
   My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -25,7 +25,7 @@ export const ABOUT_TEXT = `More than having a passion for coding, I am a dedicat
 
 export const EXPERIENCES = [
   {
-    year: "June 2025",
+    year: "June 2025 - Present",
     role: "Software Engineer",
     company: "Peraton",
     location: "Herndon, VA",
@@ -182,6 +182,8 @@ export const PROJECTS = [
 
 export const COURSES = ` Data Structures and Algorithms, Object Oriented Programming, Operating Systems, Low-level Programming, Software Engineering, 
   Analysis of Algorithms, Computer Systems and Programming, Quantum Algorithms, Introduction to AI`;
+
+export const COURSES2 = ` Machine Learning for Trading, Knowledge-Based AI, Network Science, Database System Implementation`;
 
 export const CONTACT = {
   address: "Sterling, Virginia",
