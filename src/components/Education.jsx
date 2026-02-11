@@ -4,6 +4,8 @@ import gtech from "../assets/gtech.jpg";
 import { COURSES, COURSES2 } from "../constants";
 
 const Education = () => {
+  const viewportOnce = { once: true, amount: 0.2 };
+
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h2
@@ -19,6 +21,7 @@ const Education = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
+          viewport={viewportOnce}
           className="w-full lg:w-1/4 lg:p-8"
         >
           <div className="flex items-center justify-center">
@@ -29,6 +32,7 @@ const Education = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1 }}
+          viewport={viewportOnce}
           className="w-full lg:w-3/4 lg:pl-20"
         >
           <div className="ml-auto mr-20">
@@ -60,6 +64,7 @@ const Education = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
+          viewport={viewportOnce}
           className="w-full lg:w-1/4 lg:p-8"
         >
           <div className="flex items-center justify-center">
@@ -70,6 +75,7 @@ const Education = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1 }}
+          viewport={viewportOnce}
           className="w-full lg:w-3/4 lg:pl-20"
         >
           <div className="ml-auto mr-20">
@@ -101,20 +107,3 @@ const Education = () => {
 };
 
 export default Education;
-
-/*
-    className="w-full lg:w-2/3 lg:pl-8">
-    <div className="text-left">
-        <p className="my-6 text-2xl font-bold">George Mason University</p>
-        <p className="text-xl italic">College of Computing and Engineering | Honors College</p>
-        <p className="text-xl">Expected Graduation: May 2025</p>
-        <p className="text-xl font-bold">GPA: 3.94/4.00</p>
-        <p className="my-8 text-lg">Bachelor of Science in Computer Science</p>
-        <p className="mt-2 text-lg">
-            <span className="font-bold">
-                Relevant Coursework:
-            </span>
-            Data Structures and Algorithms (Java), Object Oriented Programming (Java), Low-level Programming (C), Quantum Algorithms, Formal Methods and Models, Linear Algebra, Numerical Analysis.
-        </p>
-    </div>
-*/
