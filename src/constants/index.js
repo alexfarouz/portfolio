@@ -135,7 +135,7 @@ export const PROJECTS = [
     description: `Constructed a Next.js RAG AI chatbot to help users with general purpose questions, but more specifically help aspiring SWEs break into tech.
       The frontend was built with React, Next.js and TailwindCSS, while the backend was built using Python and Langchain for the RAG. Leveraged JWT token generation
       from the Clerk API with a Firebase integration to store data. Utilized Langchain and Pinecone's vector database to allow for OpenAI GPT-4o-mini to provide more accurate
-      answers based on the given context. `,
+      answers based on the given context.`,
     technologies: ["Langchain", "Pinecone", "Firebase", "OpenAI", "Next.js"],
     websiteLink: "https://ai-customer-support-three-phi.vercel.app/",
   },
