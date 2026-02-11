@@ -5,8 +5,16 @@ import { BiLogoTypescript } from "react-icons/bi";
 import {
   SiMicrosoftazure,
   SiFlask,
-  SiNodedotjs /*, SiC, SiCplusplus*/,
+  SiNodedotjs,
+  SiFastapi,
+  SiOpenai,
+  SiPostgresql,
 } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
+import { TbBrandDjango } from "react-icons/tb";
+import { RiSupabaseLine } from "react-icons/ri";
+import { FcLinux } from "react-icons/fc";
+import { FaAws } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -112,6 +120,71 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <SiNodedotjs className="text-7xl text-green-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaDocker className="text-7xl text-blue-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiPostgresql className="text-7xl text-blue-400" />
+        </motion.div>
+
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <RiSupabaseLine className="text-7xl text-green-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(7)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FcLinux className="text-7xl" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaAws className="text-7xl text-orange-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiFastapi className="text-7xl text-green-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <TbBrandDjango className="text-7xl text-green-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiOpenai className="text-7xl text-white" />
         </motion.div>
       </motion.div>
     </div>
