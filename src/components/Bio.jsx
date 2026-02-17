@@ -38,7 +38,7 @@ const Bio = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 "
             >
               {BIO_CONTENT}
             </motion.p>

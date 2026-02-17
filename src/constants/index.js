@@ -12,16 +12,17 @@ import kruskalExe from "../assets/projects/Kruskal's Simulator.exe";
 export const BIO_CONTENT = `Hi! My name is Alex and I am a Software Engineer at Peraton. I recently graduated Summa Cum Laude
   from George Mason University with a Bachelor of Science in Computer and I now attend Georgia Tech pursuing a Masters in Computer Science.
   With 3 years of hands-on experience, I have honed my skills in languages such as Java, Python, C/C++, JavaScript and TypeScript,
-  front-end technologies such as React and Next.js, as well as back-end technologies like Node.js, AWS, Firebase, SpringBoot and more.
-  My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+  front-end technologies such as React and Next.js, as well as back-end technologies like AWS, Node.js, Postgres, Mongo and more. I've recently
+  been diving into the world of AI experimenting with Langchain, Pinecone and various OpenAI applications. I enjoy taking ownership on projects,
+  starting from scratch all the way to deployment and maintenance.`;
 
-export const ABOUT_TEXT = `More than having a passion for coding, I am a dedicated and lifelong learner, constantly looking grow. 
-  The moments in life where I have grown the most stem from failure. Without failiure there is no chance to learn, which is why I always try
-  without fearing failure. For example, the first website I built was for a hackathon where my team and I tried to build a web app to
-  detect heart disease based off inputted paramaters. We did not win, however the project taught us a lot about web development and machine learning.
-  This was my first time using HTML, CSS and JS and also my first learning about machine learning algorithms like KNN and Random Forest.
-  The project was not a success, but was still a great learning curve for me. I thrive in team-based environments and enjoy solving complex problems 
-  to deliver high-quality solutions.`;
+export const ABOUT_TEXT = `At my core, I’m a builder. I enjoy taking ideas from zero to production — designing the architecture, writing clean
+and scalable code, and iterating until the system feels right. I’m energized by solving complex problems, especially when they require balancing 
+performance, reliability, and user experience.
+
+I’m particularly drawn to systems that demand thoughtful design and long-term maintainability, where small technical decisions can have meaningful 
+downstream impact. Whether working independently or within a team, I value ownership, clarity, and delivering work that I’m genuinely proud of. 
+For me, engineering is not just about shipping features, it’s about building solutions that are resilient, elegant, and built to last.`;
 
 export const EXPERIENCES = [
   {
@@ -73,14 +74,14 @@ export const EXPERIENCES = [
     company: "CloudStation",
     location: "Los Angeles, CA",
     description: [
-      `Developed the frontend and backend from scratch using React and JavaScript, resulting in a 100% increase in engagement.`,
-      `Achieved a 70% increase in interest across ventures such as clients, business owners, and investors, as seen by over 5000 viewers.`,
-      `Increased revenue by 45%, generating over $10,000, and facilitated positive reviews and interest from multi-millionaire investors.`,
+      // `Developed the frontend and backend from scratch using React and JavaScript, resulting in a 100% increase in engagement.`,
+      // `Achieved a 70% increase in interest across ventures such as clients, business owners, and investors, as seen by over 5000 viewers.`,
+      // `Increased revenue by 45%, generating over $10,000, and facilitated positive reviews and interest from multi-millionaire investors.`,
     ],
     technologies: ["React", "JavaScript", "Vercel", "Node.js"],
   },
   {
-    year: "January 2023 - Present",
+    year: "January 2023 - May 2025",
     role: "Computer Science Teaching Assistant",
     company: "George Mason University",
     location: "Fairfax, VA",
@@ -142,7 +143,7 @@ export const PROJECTS = [
       from the Clerk API with a Firebase integration to store data. Utilized Langchain and Pinecone's vector database to allow for OpenAI GPT-4o-mini to provide more accurate
       answers based on the given context.`,
     technologies: ["Langchain", "Pinecone", "Firebase", "OpenAI", "Next.js"],
-    websiteLink: "https://ai-customer-support-three-phi.vercel.app/",
+    //websiteLink: "https://ai-customer-support-three-phi.vercel.app/",
   },
 
   {
